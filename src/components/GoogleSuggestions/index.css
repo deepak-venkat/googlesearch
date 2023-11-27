@@ -1,0 +1,37 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.search-card {
+  width: 400px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  padding: 5px;
+  font-family: 'Roboto';
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.input {
+  width: 92%;
+  color: #64748b;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  border: 0px;
+}
+.input:hover {
+  cursor: pointer;
+}
+.suggestions-list {
+  list-style-type: none;
+}
